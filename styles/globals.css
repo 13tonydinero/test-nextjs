@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Lato', sans-serif !important;
+}
+
+.page{
+  @apply flex flex-col items-center justify-center min-h-screen
+}
+
+.title{
+  @apply text-5xl font-black my-2
+}
